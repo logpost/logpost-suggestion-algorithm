@@ -1,0 +1,1374 @@
+[
+ {
+  "job": {
+   "offer_price": 5500,
+   "weight": 5,
+   "duration": 9870,
+   "distance": 188.297,
+   "product_type": "เหล็ก 10 เมตร",
+   "permission": "public",
+   "pickup_date": "2021-01-25T06:00:00Z",
+   "dropoff_date": "2021-03-26T11:00:00Z",
+   "pickup_location": {
+    "latitude": 14.7995081,
+    "longitude": 100.6533706,
+    "address": "",
+    "province": "ลพบุรี",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 16.0368306,
+    "longitude": 100.357741,
+    "address": "ตำบล หอไกร",
+    "province": "พิจิตร",
+    "district": "อำเภอ บางมูลนาก",
+    "zipcode": "66120"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 11000,
+   "weight": 20,
+   "duration": 11415,
+   "distance": 194.596,
+   "product_type": "ข้าว",
+   "permission": "public",
+   "pickup_date": "2021-01-25T23:00:00Z",
+   "dropoff_date": "2021-01-26T06:00:00Z",
+   "pickup_location": {
+    "latitude": 16.4419355,
+    "longitude": 102.8359921,
+    "address": "",
+    "province": "ขอนแก่น",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 17.9757058,
+    "longitude": 102.6331035,
+    "address": "เวียงจันทน์",
+    "province": "นครหลวง เวียงจันทน์",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 24000,
+   "weight": 20,
+   "duration": 51272,
+   "distance": 1072.801,
+   "product_type": "สินค้า",
+   "permission": "public",
+   "pickup_date": "2021-01-27T01:00:00Z",
+   "dropoff_date": "2021-01-27T18:00:00Z",
+   "pickup_location": {
+    "latitude": 14.1011393,
+    "longitude": 99.4179431,
+    "address": "กาญจนบุรี",
+    "province": "กาญจนบุรี",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 6.761830799999999,
+    "longitude": 101.3232549,
+    "address": "",
+    "province": "ปัตตานี",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 14000,
+   "weight": 33,
+   "duration": 28675,
+   "distance": 552.975,
+   "product_type": "ปุ๋ย",
+   "permission": "public",
+   "pickup_date": "2021-01-28T05:00:00Z",
+   "dropoff_date": "2021-01-28T05:00:00Z",
+   "pickup_location": {
+    "latitude": 14.0513304,
+    "longitude": 99.7998047,
+    "address": "ตำบล อุโลกสี่หมื่น",
+    "province": "กาญจนบุรี",
+    "district": "อำเภอท่ามะกา",
+    "zipcode": "71130"
+   },
+   "dropoff_location": {
+    "latitude": 16.8203913,
+    "longitude": 102.429768,
+    "address": "ตำบล โนนเมือง",
+    "province": "หนองบัวลำภู",
+    "district": "อำเภอ โนนสัง",
+    "zipcode": "39140"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 13000,
+   "weight": 15,
+   "duration": 25411,
+   "distance": 504.614,
+   "product_type": "ไม้เข็ม",
+   "permission": "public",
+   "pickup_date": "2021-01-28T01:00:00Z",
+   "dropoff_date": "2021-01-28T11:00:00Z",
+   "pickup_location": {
+    "latitude": 13.9896447,
+    "longitude": 101.7227244,
+    "address": "ตำบล เมืองเก่า",
+    "province": "ปราจีนบุรี",
+    "district": "อำเภอกบินทร์บุรี",
+    "zipcode": "25110"
+   },
+   "dropoff_location": {
+    "latitude": 17.4860232,
+    "longitude": 101.7223002,
+    "address": "",
+    "province": "เลย",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 10000,
+   "weight": 16,
+   "duration": 31450,
+   "distance": 680.503,
+   "product_type": "ไม้เข็ม",
+   "permission": "public",
+   "pickup_date": "2021-01-26T01:00:00Z",
+   "dropoff_date": "2021-01-26T11:00:00Z",
+   "pickup_location": {
+    "latitude": 13.74114,
+    "longitude": 102.3237947,
+    "address": "ตำบลสระแก้ว",
+    "province": "สระแก้ว",
+    "district": "อำเภอวัฒนานคร",
+    "zipcode": "27160"
+   },
+   "dropoff_location": {
+    "latitude": 10.4940131,
+    "longitude": 99.0826244,
+    "address": "",
+    "province": "ชุมพร",
+    "district": "อำเภอเมืองชุมพร",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 4000,
+   "weight": 12,
+   "duration": 4438,
+   "distance": 75.867,
+   "product_type": "สินค้า",
+   "permission": "public",
+   "pickup_date": "2021-01-26T01:30:00Z",
+   "dropoff_date": "2021-01-26T05:00:00Z",
+   "pickup_location": {
+    "latitude": 13.6767054,
+    "longitude": 100.7224837,
+    "address": "ถนนกิ่งแก้ว ตำบลราชาเทวะ",
+    "province": "สมุทรปราการ",
+    "district": "อำเภอบางพลี",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 13.970653,
+    "longitude": 100.3414934,
+    "address": "ถนน บางกรวย - กรุงเทพ ตำบลไทรน้อย",
+    "province": "นนทบุรี",
+    "district": "อำเภอไทรน้อย",
+    "zipcode": "11150"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 35000,
+   "weight": 30,
+   "duration": 53828,
+   "distance": 1150.697,
+   "product_type": "ไม้ยูคาเข็ม",
+   "permission": "public",
+   "pickup_date": "2021-01-25T23:00:00Z",
+   "dropoff_date": "2021-01-27T01:00:00Z",
+   "pickup_location": {
+    "latitude": 13.824038,
+    "longitude": 102.0645839,
+    "address": "",
+    "province": "สระแก้ว",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 7.1756004,
+    "longitude": 100.614347,
+    "address": "",
+    "province": "สงขลา",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 16500,
+   "weight": 30,
+   "duration": 35023,
+   "distance": 746.027,
+   "product_type": "เหล็ก",
+   "permission": "public",
+   "pickup_date": "2021-01-27T02:00:00Z",
+   "dropoff_date": "2021-01-27T15:00:00Z",
+   "pickup_location": {
+    "latitude": 13.5475216,
+    "longitude": 100.2743956,
+    "address": "",
+    "province": "สมุทรสาคร",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 8.4303975,
+    "longitude": 99.96312189999999,
+    "address": "",
+    "province": "นครศรีธรรมราช",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 8600,
+   "weight": 20,
+   "duration": 16421,
+   "distance": 310.101,
+   "product_type": "ข้าวสาร",
+   "permission": "public",
+   "pickup_date": "2021-01-26T04:00:00Z",
+   "dropoff_date": "2021-01-26T11:00:00Z",
+   "pickup_location": {
+    "latitude": 17.4138413,
+    "longitude": 102.7872325,
+    "address": "",
+    "province": "อุดรธานี",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.9798997,
+    "longitude": 102.0977693,
+    "address": "",
+    "province": "นครราชสีมา",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 11700,
+   "weight": 20,
+   "duration": 28054,
+   "distance": 545.244,
+   "product_type": "เครื่องดื่ม",
+   "permission": "public",
+   "pickup_date": "2021-01-26T01:00:00Z",
+   "dropoff_date": "2021-01-26T13:00:00Z",
+   "pickup_location": {
+    "latitude": 14.353213,
+    "longitude": 100.568959,
+    "address": "",
+    "province": "พระนครศรีอยุธยา",
+    "district": "อำเภอท่าเ",
+    "zipcode": "13000"
+   },
+   "dropoff_location": {
+    "latitude": 15.8275916,
+    "longitude": 104.6111549,
+    "address": "Unnamed Road ตำบล ไก่คำ",
+    "province": "อำนาจเจริญ",
+    "district": "อำเภอเมืองอำนาจเจริญ",
+    "zipcode": "37000"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 10500,
+   "weight": 20,
+   "duration": 24619,
+   "distance": 492.463,
+   "product_type": "เครื่องดื่ม",
+   "permission": "public",
+   "pickup_date": "2021-01-26T01:00:00Z",
+   "dropoff_date": "2021-01-26T11:00:00Z",
+   "pickup_location": {
+    "latitude": 14.353213,
+    "longitude": 100.568959,
+    "address": "",
+    "province": "พระนครศรีอยุธยา",
+    "district": "อำเภอท่าเ",
+    "zipcode": "13000"
+   },
+   "dropoff_location": {
+    "latitude": 15.1186009,
+    "longitude": 104.3220095,
+    "address": "",
+    "province": "ศรีสะเกษ",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 10500,
+   "weight": 22,
+   "duration": 25753,
+   "distance": 557.761,
+   "product_type": "ขี้เลื่อย",
+   "permission": "public",
+   "pickup_date": "2021-01-26T23:00:00Z",
+   "dropoff_date": "2021-01-27T10:00:00Z",
+   "pickup_location": {
+    "latitude": 12.7909568,
+    "longitude": 101.6340923,
+    "address": "มาบใหญ่ ตำบล ทางเกวียน",
+    "province": "ระยอง",
+    "district": "อำเภอแกลง",
+    "zipcode": "21110"
+   },
+   "dropoff_location": {
+    "latitude": 16.7733926,
+    "longitude": 101.2451095,
+    "address": "ตำบล หล่มสัก",
+    "province": "เพชรบูรณ์",
+    "district": "อำเภอหล่มสัก",
+    "zipcode": "67110"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 10500,
+   "weight": 18,
+   "duration": 20168,
+   "distance": 423.938,
+   "product_type": "เหล็กเส้น",
+   "permission": "public",
+   "pickup_date": "2021-01-25T06:00:00.159Z",
+   "dropoff_date": "2021-01-25T13:00:00.159Z",
+   "pickup_location": {
+    "latitude": 13.5475216,
+    "longitude": 100.2743956,
+    "address": "",
+    "province": "สมุทรสาคร",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 16.1116757,
+    "longitude": 102.2621302,
+    "address": "ตำบล หนองไผ่",
+    "province": "ชัยภูมิ",
+    "district": "อำเภอ แก้งคล้อ",
+    "zipcode": "36150"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 34300,
+   "weight": 30,
+   "duration": 69892,
+   "distance": 1494.413,
+   "product_type": "ยาง (เปียก)",
+   "permission": "public",
+   "pickup_date": "2021-01-26T03:00:00Z",
+   "dropoff_date": "2021-01-27T03:00:00Z",
+   "pickup_location": {
+    "latitude": 16.4314078,
+    "longitude": 103.5058755,
+    "address": "",
+    "province": "กาฬสินธุ์",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 6.6364833,
+    "longitude": 100.4238366,
+    "address": "ตำบล สะเดา",
+    "province": "สงขลา",
+    "district": "อำเภอสะเดา",
+    "zipcode": "90120"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 12450,
+   "weight": 30,
+   "duration": 23907,
+   "distance": 459.587,
+   "product_type": "ยาง (แห้ง)",
+   "permission": "public",
+   "pickup_date": "2021-01-26T06:00:00Z",
+   "dropoff_date": "2021-01-26T14:00:00Z",
+   "pickup_location": {
+    "latitude": 16.719399,
+    "longitude": 102.804526,
+    "address": "ตำบล กุดน้ำใส",
+    "province": "ขอนแก่น",
+    "district": "อำเภอน้ำพอง",
+    "zipcode": "40140"
+   },
+   "dropoff_location": {
+    "latitude": 13.3645014,
+    "longitude": 101.4155274,
+    "address": "ตำบล วัดสุวรรณ",
+    "province": "ชลบุรี",
+    "district": "อำเภอบ่อทอง",
+    "zipcode": "20270"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 12000,
+   "weight": 30,
+   "duration": 35239,
+   "distance": 695.795,
+   "product_type": "ขี้ไก่กระสอบ 💩🐔",
+   "permission": "public",
+   "pickup_date": "2021-01-29T05:00:00Z",
+   "dropoff_date": "2021-01-29T15:00:00Z",
+   "pickup_location": {
+    "latitude": 14.0513304,
+    "longitude": 99.7998047,
+    "address": "ตำบล อุโลกสี่หมื่น",
+    "province": "กาญจนบุรี",
+    "district": "อำเภอท่ามะกา",
+    "zipcode": "71130"
+   },
+   "dropoff_location": {
+    "latitude": 17.1545995,
+    "longitude": 104.1348365,
+    "address": "",
+    "province": "สกลนคร",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 12000,
+   "weight": 30,
+   "duration": 34534,
+   "distance": 673.939,
+   "product_type": "ขี้ไก่กระสอบ 💩🐔",
+   "permission": "public",
+   "pickup_date": "2021-01-29T01:00:00Z",
+   "dropoff_date": "2021-01-29T12:00:00Z",
+   "pickup_location": {
+    "latitude": 14.377075,
+    "longitude": 99.88882,
+    "address": "ตำบล อู่ทอง",
+    "province": "สุพรรณบุรี",
+    "district": "อำเภออู่ทอง",
+    "zipcode": "72160"
+   },
+   "dropoff_location": {
+    "latitude": 17.1545995,
+    "longitude": 104.1348365,
+    "address": "",
+    "province": "สกลนคร",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 9000,
+   "weight": 12,
+   "duration": 34240,
+   "distance": 670.672,
+   "product_type": "ไม้ยางนา",
+   "permission": "public",
+   "pickup_date": "2021-01-25T21:00:00Z",
+   "dropoff_date": "2021-01-26T09:00:00Z",
+   "pickup_location": {
+    "latitude": 15.8446321,
+    "longitude": 104.3794837,
+    "address": "ตำบล โพธิ์ไทร",
+    "province": "ยโสธร",
+    "district": "อำเภอ ป่าติ้ว",
+    "zipcode": "35150"
+   },
+   "dropoff_location": {
+    "latitude": 17.9803574,
+    "longitude": 100.0461933,
+    "address": "ตำบล เด่นชัย",
+    "province": "แพร่",
+    "district": "อำเภอเด่นชัย",
+    "zipcode": "54110"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 22000,
+   "weight": 33,
+   "duration": 52894,
+   "distance": 1127.975,
+   "product_type": "ไม้เข็ม",
+   "permission": "public",
+   "pickup_date": "2021-01-26T22:00:00Z",
+   "dropoff_date": "2021-01-27T16:00:00Z",
+   "pickup_location": {
+    "latitude": 13.824038,
+    "longitude": 102.0645839,
+    "address": "",
+    "province": "สระแก้ว",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 7.0086472,
+    "longitude": 100.4746879,
+    "address": "เทศบาลนครหาดใหญ่",
+    "province": "สงขลา",
+    "district": "อำเภอหาดใหญ่",
+    "zipcode": "90110"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 5000,
+   "weight": 10,
+   "duration": 5762,
+   "distance": 111.784,
+   "product_type": "ไม้อัดวางพื้น",
+   "permission": "public",
+   "pickup_date": "2021-01-28T00:00:00Z",
+   "dropoff_date": "2021-01-28T03:00:00Z",
+   "pickup_location": {
+    "latitude": 12.7797397,
+    "longitude": 101.6490959,
+    "address": "",
+    "province": "ระยอง",
+    "district": "อำเภอแกลง",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 13.0749631,
+    "longitude": 100.9073063,
+    "address": "ถนน สุขุมวิท",
+    "province": "ชลบุรี",
+    "district": "อำเภอศรีราชา",
+    "zipcode": "20230"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 40000,
+   "weight": 30,
+   "duration": 73126,
+   "distance": 1543.493,
+   "product_type": "ไม้",
+   "permission": "public",
+   "pickup_date": "2021-01-25T22:00:00Z",
+   "dropoff_date": "2021-01-27T09:00:00Z",
+   "pickup_location": {
+    "latitude": 17.4138413,
+    "longitude": 102.7872325,
+    "address": "",
+    "province": "อุดรธานี",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 6.6364833,
+    "longitude": 100.4238366,
+    "address": "ตำบล สะเดา",
+    "province": "สงขลา",
+    "district": "อำเภอสะเดา",
+    "zipcode": "90120"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 8000,
+   "weight": 15,
+   "duration": 20171,
+   "distance": 389.285,
+   "product_type": "ไม้เข็ม",
+   "permission": "public",
+   "pickup_date": "2021-01-27T02:00:00Z",
+   "dropoff_date": "2021-01-27T10:00:00Z",
+   "pickup_location": {
+    "latitude": 13.74114,
+    "longitude": 102.3237947,
+    "address": "ตำบลสระแก้ว",
+    "province": "สระแก้ว",
+    "district": "อำเภอวัฒนานคร",
+    "zipcode": "27160"
+   },
+   "dropoff_location": {
+    "latitude": 15.2286861,
+    "longitude": 104.8564217,
+    "address": "",
+    "province": "อุบลราชธานี",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 12400,
+   "weight": 35,
+   "duration": 17303,
+   "distance": 385.645,
+   "product_type": "ปุ๋ยเกษตร",
+   "permission": "public",
+   "pickup_date": "2021-01-27T00:30:00Z",
+   "dropoff_date": "2021-01-27T06:30:00Z",
+   "pickup_location": {
+    "latitude": 17.6200886,
+    "longitude": 100.0992942,
+    "address": "",
+    "province": "อุตรดิตถ์",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.5896054,
+    "longitude": 100.455052,
+    "address": "",
+    "province": "อ่างทอง",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 8300,
+   "weight": 35,
+   "duration": 11344,
+   "distance": 243.523,
+   "product_type": "ปุ๋ยเกษตร",
+   "permission": "public",
+   "pickup_date": "2021-01-27T01:30:00Z",
+   "dropoff_date": "2021-01-27T07:30:00Z",
+   "pickup_location": {
+    "latitude": 17.6200886,
+    "longitude": 100.0992942,
+    "address": "",
+    "province": "อุตรดิตถ์",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 15.6930072,
+    "longitude": 100.1225595,
+    "address": "",
+    "province": "นครสวรรค์",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 14000,
+   "weight": 35,
+   "duration": 24010,
+   "distance": 453.988,
+   "product_type": "ไม้ยางพารา",
+   "permission": "public",
+   "pickup_date": "2021-01-28T01:00:00Z",
+   "dropoff_date": "2021-01-28T10:00:00Z",
+   "pickup_location": {
+    "latitude": 15.321933,
+    "longitude": 103.1048449,
+    "address": "",
+    "province": "บุรีรัมย์",
+    "district": "อำเภอ แคนดง",
+    "zipcode": "31150"
+   },
+   "dropoff_location": {
+    "latitude": 12.7797397,
+    "longitude": 101.6490959,
+    "address": "",
+    "province": "ระยอง",
+    "district": "อำเภอแกลง",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 15000,
+   "weight": 30,
+   "duration": 27790,
+   "distance": 556.233,
+   "product_type": "มันเส้น",
+   "permission": "public",
+   "pickup_date": "2021-01-27T23:00:00Z",
+   "dropoff_date": "2021-01-28T10:00:00Z",
+   "pickup_location": {
+    "latitude": 15.2475009,
+    "longitude": 105.2319285,
+    "address": "พิบูลมังสาหาร ตำบล พิบูล",
+    "province": "อุบลราชธานี",
+    "district": "อำเภอ พิบูลมังสาหาร",
+    "zipcode": "34110"
+   },
+   "dropoff_location": {
+    "latitude": 13.5645399,
+    "longitude": 101.0341698,
+    "address": "",
+    "province": "ฉะเชิงเทรา",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 6600,
+   "weight": 30,
+   "duration": 9813,
+   "distance": 208.079,
+   "product_type": "ไม้สับ",
+   "permission": "public",
+   "pickup_date": "2021-01-27T07:00:00Z",
+   "dropoff_date": "2021-01-28T03:00:00Z",
+   "pickup_location": {
+    "latitude": 12.6624357,
+    "longitude": 101.2575813,
+    "address": "",
+    "province": "ระยอง",
+    "district": "อำเภอเมืองระยอง",
+    "zipcode": "21000"
+   },
+   "dropoff_location": {
+    "latitude": 13.9844797,
+    "longitude": 100.5147657,
+    "address": "ตำบล บางเดื่อ",
+    "province": "ปทุมธานี",
+    "district": "อำเภอเมืองปทุมธานี",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 13500,
+   "weight": 30,
+   "duration": 24131,
+   "distance": 471.117,
+   "product_type": "ไม้ท่อน",
+   "permission": "public",
+   "pickup_date": "2021-01-26T09:00:00Z",
+   "dropoff_date": "2021-01-27T01:00:00Z",
+   "pickup_location": {
+    "latitude": 17.4801532,
+    "longitude": 101.6169002,
+    "address": "ตำบล เสี้ยว",
+    "province": "เลย",
+    "district": "อำเภอเมืองเลย",
+    "zipcode": "42000"
+   },
+   "dropoff_location": {
+    "latitude": 14.3506093,
+    "longitude": 100.5417768,
+    "address": "ตำบล บ้านป้อม",
+    "province": "พระนครศรีอยุธยา",
+    "district": "อำเภอ พระนครศรีอยุธยา",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 12600,
+   "weight": 30,
+   "duration": 48953,
+   "distance": 1024.013,
+   "product_type": "ไม้ยางพารา",
+   "permission": "public",
+   "pickup_date": "2021-01-26T05:00:00Z",
+   "dropoff_date": "2021-01-27T00:00:00Z",
+   "pickup_location": {
+    "latitude": 16.4314078,
+    "longitude": 103.5058755,
+    "address": "",
+    "province": "กาฬสินธุ์",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 12.6624357,
+    "longitude": 101.2575813,
+    "address": "",
+    "province": "ระยอง",
+    "district": "อำเภอเมืองระยอง",
+    "zipcode": "21000"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 11700,
+   "weight": 30,
+   "duration": 13790,
+   "distance": 253.387,
+   "product_type": "ไม้แปรรูป",
+   "permission": "public",
+   "pickup_date": "2021-01-27T01:00:00Z",
+   "dropoff_date": "2021-01-27T10:00:00Z",
+   "pickup_location": {
+    "latitude": 15.4992702,
+    "longitude": 102.9148994,
+    "address": "ตำบล ละหานปลาค้าว",
+    "province": "นครราชสีมา",
+    "district": "อำเภอ เมืองยาง",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 17.4138413,
+    "longitude": 102.7872325,
+    "address": "",
+    "province": "อุดรธานี",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 12000,
+   "weight": 30,
+   "duration": 21727,
+   "distance": 407.906,
+   "product_type": "ไม้ยูคา",
+   "permission": "public",
+   "pickup_date": "2021-01-28T01:00:00Z",
+   "dropoff_date": "2021-01-28T10:00:00Z",
+   "pickup_location": {
+    "latitude": 16.4827798,
+    "longitude": 99.5226618,
+    "address": "",
+    "province": "กำแพงเพชร",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 19.2729395,
+    "longitude": 98.73835509999999,
+    "address": "",
+    "province": "เชียงใหม่",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 2860,
+   "weight": 22,
+   "duration": 4723,
+   "distance": 83.811,
+   "product_type": "ขยะแห้ง",
+   "permission": "public",
+   "pickup_date": "2021-01-30T02:30:00Z",
+   "dropoff_date": "2021-01-30T05:30:00Z",
+   "pickup_location": {
+    "latitude": 14.0786882,
+    "longitude": 101.0259275,
+    "address": "",
+    "province": "นครนายก",
+    "district": "อำเภอองครักษ์",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.6382852,
+    "longitude": 101.1289634,
+    "address": "ตำบลมิตรภาพ",
+    "province": "สระบุรี",
+    "district": "อำเภอมวกเหล็ก",
+    "zipcode": "18180"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 3000,
+   "weight": 12,
+   "duration": 4116,
+   "distance": 68.89,
+   "product_type": "ข้าวสาร",
+   "permission": "public",
+   "pickup_date": "2021-01-26T02:00:00Z",
+   "dropoff_date": "2021-01-26T06:00:00Z",
+   "pickup_location": {
+    "latitude": 13.5645399,
+    "longitude": 101.0341698,
+    "address": "",
+    "province": "ฉะเชิงเทรา",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 13.5990961,
+    "longitude": 100.5998319,
+    "address": "",
+    "province": "สมุทรปราการ",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 20000,
+   "weight": 30,
+   "duration": 26681,
+   "distance": 596.432,
+   "product_type": "ตู้หมาก",
+   "permission": "public",
+   "pickup_date": "2021-01-29T09:00:00Z",
+   "dropoff_date": "2021-01-30T01:00:00Z",
+   "pickup_location": {
+    "latitude": 13.1040552,
+    "longitude": 100.9158073,
+    "address": "เทศบาลนครแหลมฉบัง",
+    "province": "ชลบุรี",
+    "district": "อำเภอบางละมุง",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 16.7124054,
+    "longitude": 98.5746649,
+    "address": "เทศบาลนครแม่สอด",
+    "province": "ตาก",
+    "district": "อำเภอแม่สอด",
+    "zipcode": "63110"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 11700,
+   "weight": 30,
+   "duration": 26972,
+   "distance": 540.971,
+   "product_type": "ปุ๋ยนกปากห่าง",
+   "permission": "public",
+   "pickup_date": "2021-01-30T08:00:00Z",
+   "dropoff_date": "2021-01-31T01:30:00Z",
+   "pickup_location": {
+    "latitude": 14.4652554,
+    "longitude": 100.611475,
+    "address": "ตำบล นครหลวง",
+    "province": "พระนครศรีอยุธยา",
+    "district": "อำเภอนครหลวง",
+    "zipcode": "13260"
+   },
+   "dropoff_location": {
+    "latitude": 15.2286861,
+    "longitude": 104.8564217,
+    "address": "",
+    "province": "อุบลราชธานี",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 15000,
+   "weight": 30,
+   "duration": 30765,
+   "distance": 632.848,
+   "product_type": "กากมัน",
+   "permission": "public",
+   "pickup_date": "2021-01-31T08:00:00Z",
+   "dropoff_date": "2021-01-31T23:00:00Z",
+   "pickup_location": {
+    "latitude": 15.2286861,
+    "longitude": 104.8564217,
+    "address": "",
+    "province": "อุบลราชธานี",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.0132641,
+    "longitude": 99.970044,
+    "address": "ตำบล กำแพงแสน",
+    "province": "นครปฐม",
+    "district": "อำเภอกำแพงแสน",
+    "zipcode": "73140"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 4000,
+   "weight": 15,
+   "duration": 3469,
+   "distance": 53.844,
+   "product_type": "ข้าวสาร",
+   "permission": "public",
+   "pickup_date": "2021-01-26T03:00:00Z",
+   "dropoff_date": "2021-01-26T07:00:00Z",
+   "pickup_location": {
+    "latitude": 13.6683018,
+    "longitude": 100.4422617,
+    "address": "พระราม 2 ซอย 50 แขวง แสมดำ",
+    "province": "กรุงเทพมหานคร",
+    "district": "เขตบางขุนเทียน",
+    "zipcode": "10150"
+   },
+   "dropoff_location": {
+    "latitude": 14.0484403,
+    "longitude": 100.3445389,
+    "address": "ตำบล หน้าไม้",
+    "province": "ปทุมธานี",
+    "district": "อำเภอลาดหลุมแก้ว",
+    "zipcode": "12140"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 14000,
+   "weight": 30,
+   "duration": 23321,
+   "distance": 446.408,
+   "product_type": "มันเส้น",
+   "permission": "public",
+   "pickup_date": "2021-01-29T00:00:00Z",
+   "dropoff_date": "2021-01-29T09:00:00Z",
+   "pickup_location": {
+    "latitude": 17.6410978,
+    "longitude": 101.4047112,
+    "address": "ตำบล ท่าลี่",
+    "province": "เลย",
+    "district": "อำเภอ ท่าลี่",
+    "zipcode": "42140"
+   },
+   "dropoff_location": {
+    "latitude": 14.5896054,
+    "longitude": 100.455052,
+    "address": "",
+    "province": "อ่างทอง",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 10000,
+   "weight": 15,
+   "duration": 31213,
+   "distance": 682.575,
+   "product_type": "เหล็ก",
+   "permission": "public",
+   "pickup_date": "2021-01-29T09:00:00Z",
+   "dropoff_date": "2021-01-29T02:00:00Z",
+   "pickup_location": {
+    "latitude": 13.8140293,
+    "longitude": 100.0372929,
+    "address": "เทศบาลนครนครปฐม",
+    "province": "นครปฐม",
+    "district": "อำเภอเมืองนครปฐม",
+    "zipcode": "73000"
+   },
+   "dropoff_location": {
+    "latitude": 8.465872200000002,
+    "longitude": 99.34995529999999,
+    "address": "ตำบล ดุสิต",
+    "province": "นครศรีธรรมราช",
+    "district": "อำเภอ ถ้ำพรรณรา",
+    "zipcode": "80260"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 8000,
+   "weight": 30,
+   "duration": 9024,
+   "distance": 202.298,
+   "product_type": "เปลือกไม้",
+   "permission": "public",
+   "pickup_date": "2021-01-30T05:00:00Z",
+   "dropoff_date": "2021-01-30T09:00:00Z",
+   "pickup_location": {
+    "latitude": 13.308029,
+    "longitude": 101.1224066,
+    "address": "ตำบล บ้านบึง",
+    "province": "ชลบุรี",
+    "district": "อำเภอบ้านบึง",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.5930566,
+    "longitude": 101.014316,
+    "address": "ตำบล บ้านป่า",
+    "province": "สระบุรี",
+    "district": "อำเภอแก่งคอย",
+    "zipcode": "18110"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 17000,
+   "weight": 30,
+   "duration": 26940,
+   "distance": 601.035,
+   "product_type": "ยางน้ำ",
+   "permission": "public",
+   "pickup_date": "2021-01-29T21:00:00Z",
+   "dropoff_date": "2021-01-30T08:00:00Z",
+   "pickup_location": {
+    "latitude": 17.0363855,
+    "longitude": 100.583514,
+    "address": "",
+    "province": "พิษณุโลก",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 12.707434,
+    "longitude": 101.1473517,
+    "address": "",
+    "province": "ระยอง",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 8000,
+   "weight": 32,
+   "duration": 15162,
+   "distance": 268.278,
+   "product_type": "อ้อย",
+   "permission": "public",
+   "pickup_date": "2021-01-31T01:30:00Z",
+   "dropoff_date": "2021-01-31T08:30:00Z",
+   "pickup_location": {
+    "latitude": 16.530982,
+    "longitude": 101.7523854,
+    "address": "",
+    "province": "ชัยภูมิ",
+    "district": "อำเภอคอนสาร",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 15.2207522,
+    "longitude": 103.0702646,
+    "address": "ตำบล หินเหล็กไฟ",
+    "province": "บุรีรัมย์",
+    "district": "อำเภอ คูเมือง",
+    "zipcode": "31190"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 3500,
+   "weight": 7,
+   "duration": 12264,
+   "distance": 185.363,
+   "product_type": "กระดาษลัง",
+   "permission": "public",
+   "pickup_date": "2021-01-27T03:00:00Z",
+   "dropoff_date": "2021-01-27T08:00:00Z",
+   "pickup_location": {
+    "latitude": 19.9071656,
+    "longitude": 99.830955,
+    "address": "",
+    "province": "เชียงราย",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 18.787747,
+    "longitude": 98.99312839999999,
+    "address": "",
+    "province": "เชียงใหม่",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 15000,
+   "weight": 32,
+   "duration": 29394,
+   "distance": 604.851,
+   "product_type": "มันเส้น",
+   "permission": "public",
+   "pickup_date": "2021-01-26T23:00:00Z",
+   "dropoff_date": "2021-01-27T10:00:00Z",
+   "pickup_location": {
+    "latitude": 15.2286861,
+    "longitude": 104.8564217,
+    "address": "",
+    "province": "อุบลราชธานี",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.153653,
+    "longitude": 100.231605,
+    "address": "ตำบล บัวปากท่า",
+    "province": "นครปฐม",
+    "district": "อำเภอบางเลน",
+    "zipcode": "73130"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 22500,
+   "weight": 32,
+   "duration": 48202,
+   "distance": 1049.112,
+   "product_type": "ขดลวด",
+   "permission": "public",
+   "pickup_date": "2021-01-26T03:00:00Z",
+   "dropoff_date": "2021-01-27T01:30:00Z",
+   "pickup_location": {
+    "latitude": 13.0387003,
+    "longitude": 101.0832815,
+    "address": "ตำบล บ่อวิน",
+    "province": "ชลบุรี",
+    "district": "อำเภอศรีราชา",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 7.0727574,
+    "longitude": 100.4059456,
+    "address": "",
+    "province": "สงขลา",
+    "district": "อำเภอบางกล่ำ",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 18500,
+   "weight": 32,
+   "duration": 30794,
+   "distance": 616.371,
+   "product_type": "น้ำตาลทรายดิบ",
+   "permission": "public",
+   "pickup_date": "2021-01-31T21:00:00Z",
+   "dropoff_date": "2021-02-01T08:00:00Z",
+   "pickup_location": {
+    "latitude": 17.1545995,
+    "longitude": 104.1348365,
+    "address": "",
+    "province": "สกลนคร",
+    "district": "",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.2186448,
+    "longitude": 100.4621366,
+    "address": "",
+    "province": "พระนครศรีอยุธยา",
+    "district": "อำเภอบางไทร",
+    "zipcode": ""
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 7820,
+   "weight": 34,
+   "duration": 12338,
+   "distance": 254.079,
+   "product_type": "ปูน Big bag",
+   "permission": "public",
+   "pickup_date": "2021-01-31T03:00:00Z",
+   "dropoff_date": "2021-01-31T09:00:00Z",
+   "pickup_location": {
+    "latitude": 14.6470845,
+    "longitude": 101.0346147,
+    "address": "33/1 หมู่ 3 ตำบล บ้านป่า",
+    "province": "สระบุรี",
+    "district": "อำเภอแก่งคอย",
+    "zipcode": "18110"
+   },
+   "dropoff_location": {
+    "latitude": 15.8071179,
+    "longitude": 102.6014782,
+    "address": "ถนน เมืองพล ตำบล เมืองพล",
+    "province": "ขอนแก่น",
+    "district": "อำเภอพล",
+    "zipcode": "40120"
+   }
+  }
+ },
+ {
+  "job": {
+   "offer_price": 4480,
+   "weight": 32,
+   "duration": 3502,
+   "distance": 67.655,
+   "product_type": "ไม้ฟืน",
+   "permission": "public",
+   "pickup_date": "2021-02-01T07:00:00Z",
+   "dropoff_date": "2021-02-01T09:00:00Z",
+   "pickup_location": {
+    "latitude": 14.712928,
+    "longitude": 101.4244586,
+    "address": "อำเภอปากช่อง",
+    "province": "นครราชสีมา",
+    "district": "อำเภอปากช่อง",
+    "zipcode": ""
+   },
+   "dropoff_location": {
+    "latitude": 14.5289154,
+    "longitude": 100.9101421,
+    "address": "",
+    "province": "สระบุรี",
+    "district": "",
+    "zipcode": ""
+   }
+  }
+ }
+]
