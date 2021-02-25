@@ -53,13 +53,11 @@ func (osrm *OSRM) GetRouteInfo(source, dest *models.Location) *gosrm.OSRMRespons
 
 // loggingLastRoute function for logging response from route btw points.
 func loggingRouteToJSON(response *gosrm.OSRMResponse, source, dest *models.Location) {
-	
+	sourceLatlong	:= strconv.FormatFloat(source.Latitude, 'f', 3, 64) + "," + strconv.FormatFloat(source.Longitude, 'f', 3, 64)
+	destLatlong 	:= strconv.FormatFloat(dest.Latitude, 'f', 3, 64) + "," + strconv.FormatFloat(dest.Longitude, 'f', 3, 64)
+
 	saveFile, _ := json.MarshalIndent(response, "", " ")
-
-	sourceLatlong := strconv.FormatFloat(source.Latitude, 'f', 3, 64) + "," + strconv.FormatFloat(source.Longitude, 'f', 3, 64)
-	destLatlong := strconv.FormatFloat(dest.Latitude, 'f', 3, 64) + "," + strconv.FormatFloat(dest.Longitude, 'f', 3, 64)
-
-	outputPath := "output/" + sourceLatlong + "_" + destLatlong + "-response-coordinates-osrm.json"
+	outputPath	:= "output/" + sourceLatlong + "_" + destLatlong + "-response-coordinates-osrm.json"
 
 	_ = ioutil.WriteFile(outputPath, saveFile, 0644)
 }
