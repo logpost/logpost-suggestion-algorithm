@@ -24,7 +24,8 @@
     "province": "พิจิตร",
     "district": "อำเภอ บางมูลนาก",
     "zipcode": "66120"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -52,7 +53,8 @@
     "province": "นครหลวง เวียงจันทน์",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -80,7 +82,8 @@
     "province": "ปัตตานี",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -108,7 +111,8 @@
     "province": "หนองบัวลำภู",
     "district": "อำเภอ โนนสัง",
     "zipcode": "39140"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -136,7 +140,8 @@
     "province": "เลย",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -164,7 +169,8 @@
     "province": "ชุมพร",
     "district": "อำเภอเมืองชุมพร",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -192,7 +198,8 @@
     "province": "นนทบุรี",
     "district": "อำเภอไทรน้อย",
     "zipcode": "11150"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -220,7 +227,8 @@
     "province": "สงขลา",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -248,7 +256,8 @@
     "province": "นครศรีธรรมราช",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -276,7 +285,8 @@
     "province": "นครราชสีมา",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -304,7 +314,8 @@
     "province": "อำนาจเจริญ",
     "district": "อำเภอเมืองอำนาจเจริญ",
     "zipcode": "37000"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -332,7 +343,8 @@
     "province": "ศรีสะเกษ",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -360,7 +372,8 @@
     "province": "เพชรบูรณ์",
     "district": "อำเภอหล่มสัก",
     "zipcode": "67110"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -388,7 +401,8 @@
     "province": "ชัยภูมิ",
     "district": "อำเภอ แก้งคล้อ",
     "zipcode": "36150"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -416,7 +430,8 @@
     "province": "สงขลา",
     "district": "อำเภอสะเดา",
     "zipcode": "90120"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -444,7 +459,8 @@
     "province": "ชลบุรี",
     "district": "อำเภอบ่อทอง",
     "zipcode": "20270"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -472,7 +488,8 @@
     "province": "สกลนคร",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -500,7 +517,8 @@
     "province": "สกลนคร",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -528,7 +546,8 @@
     "province": "แพร่",
     "district": "อำเภอเด่นชัย",
     "zipcode": "54110"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -556,7 +575,8 @@
     "province": "สงขลา",
     "district": "อำเภอหาดใหญ่",
     "zipcode": "90110"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -584,7 +604,8 @@
     "province": "ชลบุรี",
     "district": "อำเภอศรีราชา",
     "zipcode": "20230"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -612,7 +633,8 @@
     "province": "สงขลา",
     "district": "อำเภอสะเดา",
     "zipcode": "90120"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -640,7 +662,8 @@
     "province": "อุบลราชธานี",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -668,7 +691,8 @@
     "province": "อ่างทอง",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -696,7 +720,8 @@
     "province": "นครสวรรค์",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -724,7 +749,8 @@
     "province": "ระยอง",
     "district": "อำเภอแกลง",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -752,7 +778,8 @@
     "province": "ฉะเชิงเทรา",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -780,7 +807,8 @@
     "province": "ปทุมธานี",
     "district": "อำเภอเมืองปทุมธานี",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -808,7 +836,8 @@
     "province": "พระนครศรีอยุธยา",
     "district": "อำเภอ พระนครศรีอยุธยา",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -836,7 +865,8 @@
     "province": "ระยอง",
     "district": "อำเภอเมืองระยอง",
     "zipcode": "21000"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -864,7 +894,8 @@
     "province": "อุดรธานี",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -892,7 +923,8 @@
     "province": "เชียงใหม่",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -920,7 +952,8 @@
     "province": "สระบุรี",
     "district": "อำเภอมวกเหล็ก",
     "zipcode": "18180"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -948,7 +981,8 @@
     "province": "สมุทรปราการ",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -976,7 +1010,8 @@
     "province": "ตาก",
     "district": "อำเภอแม่สอด",
     "zipcode": "63110"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1004,7 +1039,8 @@
     "province": "อุบลราชธานี",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1032,7 +1068,8 @@
     "province": "นครปฐม",
     "district": "อำเภอกำแพงแสน",
     "zipcode": "73140"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1060,7 +1097,8 @@
     "province": "ปทุมธานี",
     "district": "อำเภอลาดหลุมแก้ว",
     "zipcode": "12140"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1088,7 +1126,8 @@
     "province": "อ่างทอง",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1116,7 +1155,8 @@
     "province": "นครศรีธรรมราช",
     "district": "อำเภอ ถ้ำพรรณรา",
     "zipcode": "80260"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1144,7 +1184,8 @@
     "province": "สระบุรี",
     "district": "อำเภอแก่งคอย",
     "zipcode": "18110"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1172,7 +1213,8 @@
     "province": "ระยอง",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1200,7 +1242,8 @@
     "province": "บุรีรัมย์",
     "district": "อำเภอ คูเมือง",
     "zipcode": "31190"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1228,7 +1271,8 @@
     "province": "เชียงใหม่",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1256,7 +1300,8 @@
     "province": "นครปฐม",
     "district": "อำเภอบางเลน",
     "zipcode": "73130"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1284,7 +1329,8 @@
     "province": "สงขลา",
     "district": "อำเภอบางกล่ำ",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1312,7 +1358,8 @@
     "province": "พระนครศรีอยุธยา",
     "district": "อำเภอบางไทร",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1340,7 +1387,8 @@
     "province": "ขอนแก่น",
     "district": "อำเภอพล",
     "zipcode": "40120"
-   }
+   },
+   "Visited": false
   }
  },
  {
@@ -1368,7 +1416,8 @@
     "province": "สระบุรี",
     "district": "",
     "zipcode": ""
-   }
+   },
+   "Visited": false
   }
  }
 ]
