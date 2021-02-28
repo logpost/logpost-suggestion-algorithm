@@ -1,0 +1,40 @@
+{
+ "code": "Ok",
+ "routes": [
+  {
+   "geometry": "gpiyAc}ieRb`Sajh@btDqiCvl^c{Dbg\\vbGj}MhjKd~P|fa@tyRuaJ~lKmYb{Eq{AvaLtq@hkNjlEl{S_bEdRmlSnpJ{_EztNwiWvnRcfOx_TxCpvQ`rIx_EfHbtG}_BdnQbwBxaBrxL",
+   "legs": [
+    {
+     "annotation": {
+      "metadata": {}
+     },
+     "distance": 255023.6,
+     "duration": 10622,
+     "weight": 10622
+    }
+   ],
+   "distance": 255023.6,
+   "duration": 10622,
+   "weight_name": "routability",
+   "weight": 10622
+  }
+ ],
+ "waypoints": [
+  {
+   "name": "ถนนพหลโยธิน",
+   "location": [
+    100.653784,
+    14.799563
+   ],
+   "distance": 44.956783
+  },
+  {
+   "name": "ถนนกรุงเทพฯ-ชลบุรี",
+   "location": [
+    100.915801,
+    13.104102
+   ],
+   "distance": 4.747636
+  }
+ ]
+}

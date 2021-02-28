@@ -1,0 +1,39 @@
+{
+ "code": "Ok",
+ "routes": [
+  {
+   "geometry": "gpiyAc}ieRrAkm@pzDaxG|aMsb^btDqiCviBnR``\\wnE`i[zbGjcDzoDp|Hx|E|bRb|c@riAzq@|OnkDx`D~tGxlFdlAhdAfeAlgMud@hzEzbA",
+   "legs": [
+    {
+     "annotation": {
+      "metadata": {}
+     },
+     "distance": 128985.9,
+     "duration": 5958.7,
+     "weight": 5958.7
+    }
+   ],
+   "distance": 128985.9,
+   "duration": 5958.7,
+   "weight_name": "routability",
+   "weight": 5958.7
+  }
+ ],
+ "waypoints": [
+  {
+   "name": "ถนนพหลโยธิน",
+   "location": [
+    100.653784,
+    14.799563
+   ],
+   "distance": 44.956783
+  },
+  {
+   "location": [
+    100.51477,
+    13.984481
+   ],
+   "distance": 0.110633
+  }
+ ]
+}

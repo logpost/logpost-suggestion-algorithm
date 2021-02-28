@@ -1,0 +1,40 @@
+{
+ "code": "Ok",
+ "routes": [
+  {
+   "geometry": "gpiyAc}ieRdwRk~g@zpD}pC`h_@q`E|fWtiEduRtkMjjTdke@lMbeDz}CjvGxcGz|AnjGxoK|rI~oAfvO~{Fkn@{FixGz{L",
+   "legs": [
+    {
+     "annotation": {
+      "metadata": {}
+     },
+     "distance": 150821,
+     "duration": 6834.9,
+     "weight": 6834.9
+    }
+   ],
+   "distance": 150821,
+   "duration": 6834.9,
+   "weight_name": "routability",
+   "weight": 6834.9
+  }
+ ],
+ "waypoints": [
+  {
+   "name": "ถนนพหลโยธิน",
+   "location": [
+    100.653784,
+    14.799563
+   ],
+   "distance": 44.956783
+  },
+  {
+   "name": "ถนนบางกรวย-ไทรน้อย",
+   "location": [
+    100.34148,
+    13.970635
+   ],
+   "distance": 1.980234
+  }
+ ]
+}
