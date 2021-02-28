@@ -26,7 +26,7 @@ func main() {
 		jobsMock[index].Job.Cost = utility.GetDrivingCostByDistance(jobsMock[index].Job.Distance, jobsMock[index].Job.Weight)
 	}
 	
-	jobMockPicked	:=	jobsMock[0].Job
+	jobMockPicked	:=	jobsMock[30].Job
 	jobsMock		=	jobsMock[1:]
 
 	// By pass mock data to actual data
@@ -34,34 +34,42 @@ func main() {
 	jobPicked		:=	jobMockPicked
 
 	// Initial Priority Queue (In-Mem)
-	var Queue	pqueue.PriorityQueue
+	var minimumIndex			int
+	var minimumEnding			float64
+	var minimumDistanceToOrigin	float64
+	var Queue					pqueue.PriorityQueue
+	
 	heap.Init(&Queue)
 
 	// Initial variable for running algorithm
-	sumCost			:=	0.0
-	sumOffer		:=	0.0
-	workingDays 	:=	1
-	maxWorkingDays	:=	-1
-	startDay	 	:=	time.Now()
-	endDay			:=	time.Now()
+	sumCost				:=	0.0
+	sumOffer			:=	0.0
+	currentHop			:=	0
+	maxHop				:=	4
+	workingDays 		:=	1
+	maxWorkingDays		:=	-1
+	startDay	 		:=	time.Now()
+	endDay				:=	time.Now()
 
 	// Initial data selected by user
-	originLocation		:=	models.CreateLocation(float64(14.7995081), float64(100.6533706))
-	curentLocation		:=	originLocation
+	originLocation	:=	models.CreateLocation(float64(14.7995081), float64(100.6533706))
+	curentLocation	:=	originLocation
 
 	// Starting suggestion algorithm
-	item	:=	&pqueue.Item{
+	majorJob	:=	&pqueue.Item{
 		Job:		&jobPicked,
 		JobIndex:	0,
 	}
 	
-	heap.Push(&Queue, item)
+	heap.Push(&Queue, majorJob)
 
 	for Queue.Len() > 0 {
-
+		
+		currentHop++
+		
 		jobPicked	:=	heap.Pop(&Queue).(*pqueue.Item)
 		(*jobs)[jobPicked.JobIndex].Job.Visited	=	true
-
+		
 		sumCost		+=	jobPicked.Job.Cost
 		sumOffer	+=	jobPicked.Job.OfferPrice
 		endDay		=	jobPicked.Job.DropoffDate
@@ -75,38 +83,78 @@ func main() {
 			sumCost				+=	preparingCost
 		}
 
-		minimumIndex, minimumCost	:=	getJobMinimumCost(&jobPickedLocation, &originLocation, jobs)
-		fmt.Println(minimumIndex, minimumCost)
+		if currentHop	<=	maxHop {
+			minimumIndex, minimumEnding, minimumDistanceToOrigin, _	=	getJobMinimumCost(&jobPickedLocation, &originLocation, jobs)
+		
+			if minimumIndex	!=	-1 {
+				
+				job	:=	&pqueue.Item{
+					Job:		&(*jobs)[minimumIndex].Job,
+					JobIndex:	minimumIndex,
+				}
 
-		curentLocation		=	models.CreateLocation(jobPicked.Job.DropOffLocation.Latitude, jobPicked.Job.DropOffLocation.Latitude)
+				heap.Push(&Queue, job)
+				curentLocation	=	models.CreateLocation((*jobs)[minimumIndex].Job.DropOffLocation.Latitude, (*jobs)[minimumIndex].Job.DropOffLocation.Latitude)
+
+			}
+		}
+
+		if currentHop > maxHop	||	Queue.Len() == 0 {
+			
+			if currentHop == 1 {
+				predictingDropOffLocation	:=	models.CreateLocation(jobPicked.Job.PickUpLocation.Latitude, jobPicked.Job.PickUpLocation.Longitude)
+				endingRouting				:=	osrmClient.GetRouteInfo(&predictingDropOffLocation, &originLocation)
+
+				if endingRouting	!=	nil {
+					endingRoutingDistance	:=	endingRouting.Routes[0].Distance
+					minimumDistanceToOrigin	=	endingRoutingDistance
+					endingCost				:=	utility.GetDrivingCostByDistance(endingRoutingDistance, 0)
+					sumCost					+=	endingCost
+				}
+
+			} else {
+				sumCost	+=	minimumEnding
+			}
+
+			break
+
+		}
+
+		fmt.Println("\nCURRENT_HOP: ", currentHop)
 
 	}
+	
+	fmt.Printf("\n## SUMARY ##\n")
+	fmt.Printf("SUM_OFFER:\t%f\n",			sumOffer)
+	fmt.Printf("SUM_COST:\t%f\n",			sumCost)
+	fmt.Printf("SUM_PROFIT:\t%f\n",			sumOffer - sumCost)
+	fmt.Printf("START_DATE:\t%s\n",			startDay.String())
+	fmt.Printf("END_DATE:\t%s\n",			endDay.String())
+	fmt.Printf("DISTANCE_TO_ORIGIN:\t%f\n",	minimumDistanceToOrigin)
 
-	fmt.Println(Queue, workingDays, maxWorkingDays, startDay, endDay)
-	fmt.Println(sumCost, sumOffer, endDay)
+	fmt.Println("DEBUG: ", Queue, workingDays, maxWorkingDays, startDay, endDay)
 }
 
-func getJobMinimumCost(curentLocation *models.Location, originLocation *models.Location, jobs *[]utility.JobExpected) (int, float64) {
+func getJobMinimumCost(curentLocation *models.Location, originLocation *models.Location, jobs *[]utility.JobExpected) (int, float64, float64, float64) {
 	
-	minimumIndex	:=	0
-	minimumCost		:=	9999999.999
-	minimumPrepare	:=	0.0
-	minimumEnd		:=	0.0
+	minimumIndex			:=	-1
+	minimumCost				:=	9999999.999
+	minimumPrepare			:=	0.0
+	minimumEnd				:=	0.0
+	minimumDistanceToOrigin	:=	0.0
 
 	for index	:=	range *jobs {
 
 		if	!(*jobs)[index].Job.Visited {
-			predictingPickUpLocation	:=	models.CreateLocation((*jobs)[index].Job.PickUpLocation.Latitude, (*jobs)[index].Job.PickUpLocation.Longitude)
-			predictingDropOffLocation	:=	models.CreateLocation((*jobs)[index].Job.DropOffLocation.Latitude, (*jobs)[index].Job.DropOffLocation.Longitude)
+			predictingPickUpLocation	:=	models.CreateLocation((*jobs)[index].Job.PickUpLocation.Latitude,	(*jobs)[index].Job.PickUpLocation.Longitude)
+			predictingDropOffLocation	:=	models.CreateLocation((*jobs)[index].Job.DropOffLocation.Latitude,	(*jobs)[index].Job.DropOffLocation.Longitude)
 
 			prepareRouting				:=	osrmClient.GetRouteInfo(curentLocation, &predictingPickUpLocation)
-			endingRouting				:=	osrmClient.GetRouteInfo(originLocation, &predictingDropOffLocation)
+			endingRouting				:=	osrmClient.GetRouteInfo(&predictingDropOffLocation,	originLocation)
 
 			if prepareRouting != nil && endingRouting != nil {
 				prepareRoutingDistance	:=	prepareRouting.Routes[0].Distance
 				endingRoutingDistance	:=	endingRouting.Routes[0].Distance
-
-				// fmt.Println(index, prepareRoutingDistance, endingRoutingDistance)
 
 				preparingCost			:=	utility.GetDrivingCostByDistance(prepareRoutingDistance, 0)
 				endingCost				:=	utility.GetDrivingCostByDistance(endingRoutingDistance, 0)
@@ -114,17 +162,17 @@ func getJobMinimumCost(curentLocation *models.Location, originLocation *models.L
 				sumaryPredictingCost	:=	preparingCost + (*jobs)[index].Job.Cost + endingCost
 
 				if	minimumCost > sumaryPredictingCost {
-					fmt.Println("*** MINIMUM: ", index, sumaryPredictingCost)
-					minimumCost		=	sumaryPredictingCost
-					minimumPrepare	=	preparingCost
-					minimumEnd		=	endingCost
-					minimumIndex	=	index
+					minimumCost				=	sumaryPredictingCost
+					minimumPrepare			=	preparingCost
+					minimumDistanceToOrigin	=	endingRoutingDistance
+					minimumEnd				=	endingCost
+					minimumIndex			=	index
 				}
 			}
 		} 
 	}
 
-	fmt.Println(minimumIndex, minimumCost, minimumPrepare, minimumEnd)
+	fmt.Printf("MINIMUM PREDICT: INDEX:\t%d\tCOST:\t%f\nCOST_PREPARE:\t%f\tCOST_ENDING:\t%f", minimumIndex, minimumCost, minimumPrepare, minimumEnd)
 	
-	return	minimumIndex, minimumCost
+	return	minimumIndex, minimumEnd, minimumDistanceToOrigin, minimumCost
 }
