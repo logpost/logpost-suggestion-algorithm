@@ -7,6 +7,7 @@ const (
 	depreciation 	=	800.0
 	rateFixedCost	=	0.05	// 5% of offer
 	rateTax			=	0.01	// 1% of offer
+	changeMToKM		=	1000.0
 )
 
 // GetEnvironmentCostByDay function for get environment cost.
@@ -20,8 +21,8 @@ func GetEnvironmentCostByDay(offer float64, day int) float64 {
 	return costDriver + costTruck + costFixed + costTax
 }
 
-// GetCostDrivingCostByDistance function for get driving cost in one time.
-func GetCostDrivingCostByDistance(distance, weight float64) float64 {
+// GetDrivingCostByDistance function for get driving cost in one time.
+func GetDrivingCostByDistance(distance, weight float64) float64 {
 	var costOilPrice	float64
 	
 	if weight > 0 { 
@@ -30,7 +31,7 @@ func GetCostDrivingCostByDistance(distance, weight float64) float64 {
 		costOilPrice = oilPrice / 2	// TRUCK DRIVE WHEN NO LOAD.
 	}
 
-	return distance * costOilPrice
+	return (distance / changeMToKM ) * costOilPrice
 }
 
 // GetCostOneJob function for get cost from offer and distance.
