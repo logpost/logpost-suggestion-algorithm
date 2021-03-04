@@ -2,7 +2,7 @@ package pqueue
 
 import (
 	// "container/heap"
-	"github.com/logpost/poc-suggestion-algorithm/models"
+	"github.com/logpost/logpost-suggestion-algorithm/models"
 )
 
 // An Item is something we manage in a priority queue.
