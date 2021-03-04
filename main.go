@@ -5,10 +5,10 @@ import (
 	"time"
 	"fmt"
 	"container/heap"
-	"github.com/logpost/poc-suggestion-algorithm/pqueue"
-	"github.com/logpost/poc-suggestion-algorithm/utility"
-	"github.com/logpost/poc-suggestion-algorithm/models"
-	"github.com/logpost/poc-suggestion-algorithm/osrm"
+	"github.com/logpost/logpost-suggestion-algorithm/pqueue"
+	"github.com/logpost/logpost-suggestion-algorithm/utility"
+	"github.com/logpost/logpost-suggestion-algorithm/models"
+	"github.com/logpost/logpost-suggestion-algorithm/osrm"
 )
 
 var	osrmClient	osrm.OSRM
@@ -19,18 +19,24 @@ type MinimumCostBuffer struct {
 	minimumEndingCost			float64
 	minimumDistanceToOrigin		float64
 	minimumCost					float64
+	minimumPrepare				float64
+}
+
+func timeTrack(start time.Time) {
+	elapsed	:=	time.Since(start)
+	fmt.Printf("\nTOOK:\t\t%s\n", elapsed)
 }
 
 func getJobMinimumCost(curentLocation *models.Location, originLocation *models.Location, minimumCostPipe chan MinimumCostBuffer, wg *sync.WaitGroup, jobs *[]utility.JobExpected, startIndex int, endIndex int) {
 	
 	defer wg.Done()
-
+	
 	minimumIndex			:=	-1
 	minimumCost				:=	9999999.999
 	minimumPrepare			:=	0.0
 	minimumEndingCost		:=	0.0
 	minimumDistanceToOrigin	:=	0.0
-
+ 
 	for index:= startIndex; index<endIndex; index++ {
 
 		if	!(*jobs)[index].Job.Visited {
@@ -60,10 +66,10 @@ func getJobMinimumCost(curentLocation *models.Location, originLocation *models.L
 		} 
 	}
 
-	fmt.Printf("\nMINIMUM PREDICT:\nINDEX:\t\t%d\t\tCOST:\t\t%f\nCOST_PREPARE:\t%f\tCOST_ENDING:\t%f", minimumIndex, minimumCost, minimumPrepare, minimumEndingCost)
+	// fmt.Printf("\nMINIMUM PREDICT:\nINDEX:\t\t%d\t\tCOST:\t\t%f\nCOST_PREPARE:\t%f\tCOST_ENDING:\t%f", minimumIndex, minimumCost, minimumPrepare, minimumEndingCost)
 	 
 	buffer	:=	MinimumCostBuffer{
-		minimumIndex, minimumEndingCost, minimumDistanceToOrigin, minimumCost,
+		minimumIndex, minimumEndingCost, minimumDistanceToOrigin, minimumCost, minimumPrepare,
 	}
 
 	minimumCostPipe	<- buffer
@@ -134,7 +140,7 @@ func main() {
 	
 	// Create OSRM client.
 	osrmClient		=	osrm.OSRM{}
-	osrmClient.CreateOSRM("http://localhost:5000/")
+	osrmClient.CreateOSRM("http://osrm:5000/") 
 
 	// Mocking data
 	jobsMock		:=	utility.LoadJSON()
@@ -147,7 +153,7 @@ func main() {
 	jobMockPicked	:=	jobsMock[30].Job
 	jobsMock		=	jobsMock[1:]
 
-	fmt.Println(jobMockPicked)
+	start := time.Now()
 
 	// By pass mock data to actual data
 	jobs	 		:=	&jobsMock
@@ -241,11 +247,11 @@ func main() {
 
 		}
 
-		fmt.Println("\nCURRENT_HOP: ", currentHop)
+		// fmt.Println("\nCURRENT_HOP: ", currentHop)
 
 	}
-	
 	fmt.Printf("\n## SUMARY ##\n")
+	timeTrack(start)
 	fmt.Printf("SUM_OFFER:\t\t%f\n",		sumOffer)
 	fmt.Printf("SUM_COST:\t\t%f\n",			sumCost)
 	fmt.Printf("SUM_PROFIT:\t\t%f\n",		sumOffer - sumCost)

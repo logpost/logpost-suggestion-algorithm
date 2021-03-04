@@ -8,7 +8,7 @@ import (
 	"net/url"
 	"github.com/karmadon/gosrm"
 	"github.com/paulmach/go.geo"
-	"github.com/logpost/poc-suggestion-algorithm/models"
+	"github.com/logpost/logpost-suggestion-algorithm/models"
 )
 
 // OSRM Struct is data for access gosrm.

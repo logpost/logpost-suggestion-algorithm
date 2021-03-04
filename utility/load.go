@@ -3,7 +3,7 @@ package utility
 import (
 	"encoding/json"
 	"io/ioutil"
-	"github.com/logpost/poc-suggestion-algorithm/models"
+	"github.com/logpost/logpost-suggestion-algorithm/models"
 )
 
 // JobExpected use for destruct job from object

@@ -1,0 +1,28 @@
+version: '3.8'
+services:
+    osrm:
+        container_name: osrm
+        image: osrm/osrm-backend
+        restart: always
+        ports:
+            - '5000:5000'
+        volumes:
+            - ./osrm-backend/source:/data
+        command: 'osrm-routed --algorithm mld /data/thailand-latest.osrm'
+        networks:
+            - poc_network
+    logpost-suggestion:
+        container_name: logpost-suggestion
+        build:
+            context: .
+            dockerfile: ./docker/dev.Dockerfile
+        restart: always
+        volumes:
+            - .:/go/src/github.com/logpost/logpost-suggestion-algorithm
+        depends_on:
+            - osrm
+        networks:
+            - poc_network
+networks:
+    poc_network:
+        driver: bridge
