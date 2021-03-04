@@ -66,7 +66,7 @@ func getJobMinimumCost(curentLocation *models.Location, originLocation *models.L
 		} 
 	}
 
-	// fmt.Printf("\nMINIMUM PREDICT:\nINDEX:\t\t%d\t\tCOST:\t\t%f\nCOST_PREPARE:\t%f\tCOST_ENDING:\t%f", minimumIndex, minimumCost, minimumPrepare, minimumEndingCost)
+	fmt.Printf("\n### MINIMUM PREDICT:\nINDEX:\t\t%d\nCOST:\t\t%f\nCOST_PREPARE:\t%f\nCOST_ENDING:\t%f\n", minimumIndex, minimumCost, minimumPrepare, minimumEndingCost)
 	 
 	buffer	:=	MinimumCostBuffer{
 		minimumIndex, minimumEndingCost, minimumDistanceToOrigin, minimumCost, minimumPrepare,
@@ -247,9 +247,10 @@ func main() {
 
 		}
 
-		// fmt.Println("\nCURRENT_HOP: ", currentHop)
+		fmt.Println("\nCURRENT_HOP: ", currentHop)
 
 	}
+
 	fmt.Printf("\n## SUMARY ##\n")
 	timeTrack(start)
 	fmt.Printf("SUM_OFFER:\t\t%f\n",		sumOffer)
