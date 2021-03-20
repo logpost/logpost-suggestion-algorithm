@@ -10,7 +10,7 @@ type Job struct {
 	// Attribute parsed from raw
 	JobID				primitive.ObjectID	`json:"job_id"				bson:"job_id"`	
 	CarrierID			primitive.ObjectID	`json:"carrier_id"			bson:"carrier_id"`
-	OfferPrice 			float64 			`json:"offer_price"			bson:"offer_price"`
+	OfferPrice 			float32 			`json:"offer_price"			bson:"offer_price"`
 	Weight				float64 			`json:"weight"				bson:"weight"`
 	Duration 			int 				`json:"duration"			bson:"duration"`
 	WaitingTime			int					`json:"waiting_time"		bson:"waiting_time"`
