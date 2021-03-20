@@ -1,6 +1,7 @@
 [
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 5500,
    "weight": 5,
    "duration": 9870,
@@ -31,6 +32,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 11000,
    "weight": 20,
    "duration": 11415,
@@ -61,6 +63,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 24000,
    "weight": 20,
    "duration": 51272,
@@ -91,6 +94,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 14000,
    "weight": 33,
    "duration": 28675,
@@ -121,6 +125,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 13000,
    "weight": 15,
    "duration": 25411,
@@ -151,6 +156,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 10000,
    "weight": 16,
    "duration": 31450,
@@ -181,6 +187,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 4000,
    "weight": 12,
    "duration": 4438,
@@ -211,6 +218,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 35000,
    "weight": 30,
    "duration": 53828,
@@ -241,6 +249,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 16500,
    "weight": 30,
    "duration": 35023,
@@ -271,6 +280,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 8600,
    "weight": 20,
    "duration": 16421,
@@ -301,6 +311,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 11700,
    "weight": 20,
    "duration": 28054,
@@ -331,6 +342,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 10500,
    "weight": 20,
    "duration": 24619,
@@ -361,6 +373,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 10500,
    "weight": 22,
    "duration": 25753,
@@ -391,6 +404,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 10500,
    "weight": 18,
    "duration": 20168,
@@ -421,6 +435,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 34300,
    "weight": 30,
    "duration": 69892,
@@ -451,6 +466,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 12450,
    "weight": 30,
    "duration": 23907,
@@ -481,6 +497,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 12000,
    "weight": 30,
    "duration": 35239,
@@ -511,6 +528,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 12000,
    "weight": 30,
    "duration": 34534,
@@ -541,6 +559,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 9000,
    "weight": 12,
    "duration": 34240,
@@ -571,6 +590,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 22000,
    "weight": 33,
    "duration": 52894,
@@ -601,6 +621,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 5000,
    "weight": 10,
    "duration": 5762,
@@ -631,6 +652,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 40000,
    "weight": 30,
    "duration": 73126,
@@ -661,6 +683,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 8000,
    "weight": 15,
    "duration": 20171,
@@ -691,6 +714,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 12400,
    "weight": 35,
    "duration": 17303,
@@ -721,6 +745,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 8300,
    "weight": 35,
    "duration": 11344,
@@ -751,6 +776,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 14000,
    "weight": 35,
    "duration": 24010,
@@ -781,6 +807,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 15000,
    "weight": 30,
    "duration": 27790,
@@ -811,6 +838,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 6600,
    "weight": 30,
    "duration": 9813,
@@ -841,6 +869,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 13500,
    "weight": 30,
    "duration": 24131,
@@ -871,6 +900,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 12600,
    "weight": 30,
    "duration": 48953,
@@ -901,6 +931,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 11700,
    "weight": 30,
    "duration": 13790,
@@ -931,6 +962,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 12000,
    "weight": 30,
    "duration": 21727,
@@ -961,6 +993,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 2860,
    "weight": 22,
    "duration": 4723,
@@ -991,6 +1024,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 3000,
    "weight": 12,
    "duration": 4116,
@@ -1021,6 +1055,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 20000,
    "weight": 30,
    "duration": 26681,
@@ -1051,6 +1086,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 11700,
    "weight": 30,
    "duration": 26972,
@@ -1081,6 +1117,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 15000,
    "weight": 30,
    "duration": 30765,
@@ -1111,6 +1148,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 4000,
    "weight": 15,
    "duration": 3469,
@@ -1141,6 +1179,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 14000,
    "weight": 30,
    "duration": 23321,
@@ -1171,6 +1210,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 10000,
    "weight": 15,
    "duration": 31213,
@@ -1201,6 +1241,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 8000,
    "weight": 30,
    "duration": 9024,
@@ -1231,6 +1272,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 17000,
    "weight": 30,
    "duration": 26940,
@@ -1261,6 +1303,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 8000,
    "weight": 32,
    "duration": 15162,
@@ -1291,6 +1334,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 3500,
    "weight": 7,
    "duration": 12264,
@@ -1321,6 +1365,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 15000,
    "weight": 32,
    "duration": 29394,
@@ -1351,6 +1396,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 22500,
    "weight": 32,
    "duration": 48202,
@@ -1381,6 +1427,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 18500,
    "weight": 32,
    "duration": 30794,
@@ -1411,6 +1458,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 7820,
    "weight": 34,
    "duration": 12338,
@@ -1441,6 +1489,7 @@
  },
  {
   "job": {
+   "carrier_id": "000000000000000000000000",
    "offer_price": 4480,
    "weight": 32,
    "duration": 3502,

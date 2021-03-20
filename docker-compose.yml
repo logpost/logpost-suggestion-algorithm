@@ -11,6 +11,7 @@ services:
         command: 'osrm-routed --algorithm mld /data/thailand-latest.osrm'
         networks:
             - poc_network
+
     logpost-suggestion:
         container_name: logpost-suggestion
         build:
@@ -23,6 +24,7 @@ services:
             - osrm
         networks:
             - poc_network
+
 networks:
     poc_network:
         driver: bridge

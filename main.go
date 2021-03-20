@@ -27,9 +27,9 @@ func timeTrack(start time.Time) {
 	fmt.Printf("\nTOOK:\t\t%s\n", elapsed)
 }
 
-func getJobMinimumCost(curentLocation *models.Location, originLocation *models.Location, minimumCostPipe chan MinimumCostBuffer, wg *sync.WaitGroup, jobs *[]utility.JobExpected, startIndex int, endIndex int) {
+func getJobMinimumCost(curentLocation *models.Location, originLocation *models.Location, minimumCostPipe chan MinimumCostBuffer, waitGroup *sync.WaitGroup, jobs *[]models.JobExpected, startIndex int, endIndex int) {
 	
-	defer wg.Done()
+	defer waitGroup.Done()
 	
 	minimumIndex			:=	-1
 	minimumCost				:=	9999999.999
@@ -37,7 +37,7 @@ func getJobMinimumCost(curentLocation *models.Location, originLocation *models.L
 	minimumEndingCost		:=	0.0
 	minimumDistanceToOrigin	:=	0.0
  
-	for index:= startIndex; index<endIndex; index++ {
+	for index := startIndex; index < endIndex; index++ {
 
 		if	!(*jobs)[index].Job.Visited {
 			predictingPickUpLocation	:=	models.CreateLocation((*jobs)[index].Job.PickUpLocation.Latitude,	(*jobs)[index].Job.PickUpLocation.Longitude)
@@ -76,9 +76,9 @@ func getJobMinimumCost(curentLocation *models.Location, originLocation *models.L
 
 }
 
-func getActualJobMinimumCost(minimumCostPipe chan MinimumCostBuffer, actualJobMinimumCostPipe chan MinimumCostBuffer, wg *sync.WaitGroup) {
+func getActualJobMinimumCost(minimumCostPipe chan MinimumCostBuffer, actualJobMinimumCostPipe chan MinimumCostBuffer, waitGroup *sync.WaitGroup) {
 
-	defer wg.Done()
+	defer waitGroup.Done()
 
 	var minimumCostOne,	minimumCostTwo	MinimumCostBuffer
 	m, mm, mmm, mmmm := <-minimumCostPipe, <-minimumCostPipe, <-minimumCostPipe, <-minimumCostPipe
@@ -102,27 +102,27 @@ func getActualJobMinimumCost(minimumCostPipe chan MinimumCostBuffer, actualJobMi
 	}
 }
 
-func getJobMinimumCostParallel(jobPickedLocation *models.Location, originLocation *models.Location, jobs *[]utility.JobExpected) (int, float64, float64, float64) {
+func getJobMinimumCostParallel(jobPickedLocation *models.Location, originLocation *models.Location, jobs *[]models.JobExpected) (int, float64, float64, float64) {
 
 	minimumCostPipe				:=	make(chan MinimumCostBuffer)
 	actualJobMinimumCostPipe	:=	make(chan MinimumCostBuffer)
 
-	var wg sync.WaitGroup
+	var waitGroup sync.WaitGroup
 
-	wg.Add(1)
-	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &wg, jobs, 0, len(*jobs)/4)
+	waitGroup.Add(1)
+	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &waitGroup, jobs, 0, len(*jobs)/4)
 
-	wg.Add(1)
-	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &wg, jobs, len(*jobs)/4, len(*jobs)/4 * 2)
+	waitGroup.Add(1)
+	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &waitGroup, jobs, len(*jobs)/4, len(*jobs)/4 * 2)
 
-	wg.Add(1)
-	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &wg, jobs, len(*jobs)/4 * 2, len(*jobs)/4 * 3)
+	waitGroup.Add(1)
+	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &waitGroup, jobs, len(*jobs)/4 * 2, len(*jobs)/4 * 3)
 
-	wg.Add(1)
-	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &wg, jobs, len(*jobs)/4 * 3, len(*jobs))
+	waitGroup.Add(1)
+	go getJobMinimumCost(jobPickedLocation, originLocation, minimumCostPipe, &waitGroup, jobs, len(*jobs)/4 * 3, len(*jobs))
 
-	wg.Add(1)
-	go getActualJobMinimumCost(minimumCostPipe, actualJobMinimumCostPipe, &wg)
+	waitGroup.Add(1)
+	go getActualJobMinimumCost(minimumCostPipe, actualJobMinimumCostPipe, &waitGroup)
 
 	actualJobMinimumCost		:=	<- actualJobMinimumCostPipe
 	minimumIndex				:=	actualJobMinimumCost.minimumIndex
@@ -130,28 +130,39 @@ func getJobMinimumCostParallel(jobPickedLocation *models.Location, originLocatio
 	minimumDistanceToOrigin		:=	actualJobMinimumCost.minimumDistanceToOrigin
 	minimumCost					:=	actualJobMinimumCost.minimumCost
 	
-	wg.Wait()
+	waitGroup.Wait()
 
 	return minimumIndex, minimumEndingCost, minimumDistanceToOrigin, minimumCost
 	
 }
 
-func main() {
-	
+func CreateOSRMClient(URL string) {
 	// Create OSRM client.
 	osrmClient		=	osrm.OSRM{}
-	osrmClient.CreateOSRM("http://osrm:5000/") 
+	// osrmClient.CreateOSRM("http://osrm:5001/")
+	osrmClient.CreateOSRM(URL)
+}
+
+func main() {
+	
+	CreateOSRMClient("http://127.0.0.1:5001/")
 
 	// Mocking data
 	jobsMock		:=	utility.LoadJSON()
+	
+	jobMockPicked	:=	jobsMock[30].Job
+	jobsMock		=	jobsMock[1:]
+	
+	fmt.Println(len(jobsMock))
+
+	// Filtering by picked conditions
+	jobsFiltered, _	:=	utility.JobsFiltering(jobMockPicked, &jobsMock)
+	jobsMock		=	jobsFiltered
 
 	// Initial cost for each job
 	for index := range jobsMock {
 		jobsMock[index].Job.Cost = utility.GetDrivingCostByDistance(jobsMock[index].Job.Distance, jobsMock[index].Job.Weight)
 	}
-	
-	jobMockPicked	:=	jobsMock[30].Job
-	jobsMock		=	jobsMock[1:]
 
 	start := time.Now()
 
@@ -171,7 +182,7 @@ func main() {
 	sumCost			:=	0.0
 	sumOffer		:=	0.0
 	currentHop		:=	0
-	maxHop			:=	20
+	maxHop			:=	3
 	workingDays 	:=	1
 	maxWorkingDays	:=	-1
 	startDay	 	:=	time.Now()
@@ -195,6 +206,10 @@ func main() {
 		
 		jobPicked	:=	heap.Pop(&Queue).(*pqueue.Item)
 		(*jobs)[jobPicked.JobIndex].Job.Visited	=	true
+
+		jobsFiltered, size	:=	utility.JobsFiltering((*jobPicked.Job), jobs)
+		jobs		=	&jobsFiltered
+		fmt.Println(size)
 		
 		sumCost		+=	jobPicked.Job.Cost
 		sumOffer	+=	jobPicked.Job.OfferPrice
@@ -252,7 +267,9 @@ func main() {
 	}
 
 	fmt.Printf("\n## SUMARY ##\n")
+
 	timeTrack(start)
+	
 	fmt.Printf("SUM_OFFER:\t\t%f\n",		sumOffer)
 	fmt.Printf("SUM_COST:\t\t%f\n",			sumCost)
 	fmt.Printf("SUM_PROFIT:\t\t%f\n",		sumOffer - sumCost)

@@ -2,35 +2,38 @@ package models
 
 import (
 	"time"
-)
+	"go.mongodb.org/mongo-driver/bson/primitive"
+) 
 
 // Job Struct for create job instance
 type Job struct { 
 	// Attribute parsed from raw
-	OfferPrice 			float64 		`json:"offer_price"`
-	Weight				float64 		`json:"weight"`
-	Duration 			int 			`json:"duration"`
-	Distance 			float64 		`json:"distance"`
-	ProductType			string 			`json:"product_type"`
-	Permission			string 			`json:"permission"`
-	PickupDate			time.Time 		`json:"pickup_date"`
-	DropoffDate			time.Time	 	`json:"dropoff_date"`
-	PickUpLocation		Location		`json:"pickup_location"`
-	DropOffLocation		Location		`json:"dropoff_location"`
+	JobID				primitive.ObjectID	`json:"job_id"				bson:"job_id"`	
+	CarrierID			primitive.ObjectID	`json:"carrier_id"			bson:"carrier_id"`
+	OfferPrice 			float64 			`json:"offer_price"			bson:"offer_price"`
+	Weight				float64 			`json:"weight"				bson:"weight"`
+	Duration 			int 				`json:"duration"			bson:"duration"`
+	WaitingTime			int					`json:"waiting_time"		bson:"waiting_time"`
+	Distance 			float64 			`json:"distance"			bson:"distance"`
+	ProductType			string 				`json:"product_type"		bson:"product_type"`
+	Permission			string 				`json:"permission"			bson:"permission"`
+	PickupDate			time.Time 			`json:"pickup_date"			bson:"pickup_date"`
+	DropoffDate			time.Time	 		`json:"dropoff_date"		bson:"dropoff_date"`
+	PickUpLocation		Location			`json:"pickup_location"		bson:"pickup_location"`
+	DropOffLocation		Location			`json:"dropoff_location"	bson:"dropoff_location"`
 	// Attribute for running algorithm
-	Visited				bool			`json:"visited"`
-	Cost				float64			`json:"cost"`
-	// JobID				bson.ObjectId	`json:"job_id"`	
+	Visited				bool				`json:"visited"				bson:"visited"`
+	Cost				float64				`json:"cost"				bson:"cost"`
 }
 
 // Location Struct for mapping location information
 type Location struct {
-	Latitude			float64			`json:"latitude"`
-	Longitude			float64			`json:"longitude"`
-	Address				string			`json:"address"`
-	Province			string			`json:"province"`
-	District			string			`json:"district"`
-	Zipcode				string			`json:"zipcode"`
+	Latitude			float64				`json:"latitude"			bson:"latitude"`
+	Longitude			float64				`json:"longitude"			bson:"longitude"`
+	Address				string				`json:"address"				bson:"address"`
+	Province			string				`json:"province"			bson:"province"`
+	District			string				`json:"district"			bson:"district"`
+	Zipcode				string				`json:"zipcode"				bson:"zipcode"`
 }
 
 // CreateLocation func do create location's struct
