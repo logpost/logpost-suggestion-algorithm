@@ -1,10 +1,12 @@
 [
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 5500,
    "weight": 5,
    "duration": 9870,
+   "waiting_time": 0,
    "distance": 188.297,
    "product_type": "เหล็ก 10 เมตร",
    "permission": "public",
@@ -26,16 +28,19 @@
     "district": "อำเภอ บางมูลนาก",
     "zipcode": "66120"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 11000,
    "weight": 20,
    "duration": 11415,
+   "waiting_time": 0,
    "distance": 194.596,
    "product_type": "ข้าว",
    "permission": "public",
@@ -57,16 +62,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 24000,
    "weight": 20,
    "duration": 51272,
+   "waiting_time": 0,
    "distance": 1072.801,
    "product_type": "สินค้า",
    "permission": "public",
@@ -88,16 +96,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 14000,
    "weight": 33,
    "duration": 28675,
+   "waiting_time": 0,
    "distance": 552.975,
    "product_type": "ปุ๋ย",
    "permission": "public",
@@ -119,16 +130,19 @@
     "district": "อำเภอ โนนสัง",
     "zipcode": "39140"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 13000,
    "weight": 15,
    "duration": 25411,
+   "waiting_time": 0,
    "distance": 504.614,
    "product_type": "ไม้เข็ม",
    "permission": "public",
@@ -150,16 +164,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 10000,
    "weight": 16,
    "duration": 31450,
+   "waiting_time": 0,
    "distance": 680.503,
    "product_type": "ไม้เข็ม",
    "permission": "public",
@@ -181,16 +198,19 @@
     "district": "อำเภอเมืองชุมพร",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 4000,
    "weight": 12,
    "duration": 4438,
+   "waiting_time": 0,
    "distance": 75.867,
    "product_type": "สินค้า",
    "permission": "public",
@@ -212,16 +232,19 @@
     "district": "อำเภอไทรน้อย",
     "zipcode": "11150"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 35000,
    "weight": 30,
    "duration": 53828,
+   "waiting_time": 0,
    "distance": 1150.697,
    "product_type": "ไม้ยูคาเข็ม",
    "permission": "public",
@@ -243,16 +266,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 16500,
    "weight": 30,
    "duration": 35023,
+   "waiting_time": 0,
    "distance": 746.027,
    "product_type": "เหล็ก",
    "permission": "public",
@@ -274,16 +300,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 8600,
    "weight": 20,
    "duration": 16421,
+   "waiting_time": 0,
    "distance": 310.101,
    "product_type": "ข้าวสาร",
    "permission": "public",
@@ -305,16 +334,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 11700,
    "weight": 20,
    "duration": 28054,
+   "waiting_time": 0,
    "distance": 545.244,
    "product_type": "เครื่องดื่ม",
    "permission": "public",
@@ -336,16 +368,19 @@
     "district": "อำเภอเมืองอำนาจเจริญ",
     "zipcode": "37000"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 10500,
    "weight": 20,
    "duration": 24619,
+   "waiting_time": 0,
    "distance": 492.463,
    "product_type": "เครื่องดื่ม",
    "permission": "public",
@@ -367,16 +402,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 10500,
    "weight": 22,
    "duration": 25753,
+   "waiting_time": 0,
    "distance": 557.761,
    "product_type": "ขี้เลื่อย",
    "permission": "public",
@@ -398,16 +436,19 @@
     "district": "อำเภอหล่มสัก",
     "zipcode": "67110"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 10500,
    "weight": 18,
    "duration": 20168,
+   "waiting_time": 0,
    "distance": 423.938,
    "product_type": "เหล็กเส้น",
    "permission": "public",
@@ -429,16 +470,19 @@
     "district": "อำเภอ แก้งคล้อ",
     "zipcode": "36150"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 34300,
    "weight": 30,
    "duration": 69892,
+   "waiting_time": 0,
    "distance": 1494.413,
    "product_type": "ยาง (เปียก)",
    "permission": "public",
@@ -460,16 +504,19 @@
     "district": "อำเภอสะเดา",
     "zipcode": "90120"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 12450,
    "weight": 30,
    "duration": 23907,
+   "waiting_time": 0,
    "distance": 459.587,
    "product_type": "ยาง (แห้ง)",
    "permission": "public",
@@ -491,16 +538,19 @@
     "district": "อำเภอบ่อทอง",
     "zipcode": "20270"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 12000,
    "weight": 30,
    "duration": 35239,
+   "waiting_time": 0,
    "distance": 695.795,
    "product_type": "ขี้ไก่กระสอบ 💩🐔",
    "permission": "public",
@@ -522,16 +572,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 12000,
    "weight": 30,
    "duration": 34534,
+   "waiting_time": 0,
    "distance": 673.939,
    "product_type": "ขี้ไก่กระสอบ 💩🐔",
    "permission": "public",
@@ -553,16 +606,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 9000,
    "weight": 12,
    "duration": 34240,
+   "waiting_time": 0,
    "distance": 670.672,
    "product_type": "ไม้ยางนา",
    "permission": "public",
@@ -584,16 +640,19 @@
     "district": "อำเภอเด่นชัย",
     "zipcode": "54110"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 22000,
    "weight": 33,
    "duration": 52894,
+   "waiting_time": 0,
    "distance": 1127.975,
    "product_type": "ไม้เข็ม",
    "permission": "public",
@@ -615,16 +674,19 @@
     "district": "อำเภอหาดใหญ่",
     "zipcode": "90110"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 5000,
    "weight": 10,
    "duration": 5762,
+   "waiting_time": 0,
    "distance": 111.784,
    "product_type": "ไม้อัดวางพื้น",
    "permission": "public",
@@ -646,16 +708,19 @@
     "district": "อำเภอศรีราชา",
     "zipcode": "20230"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 40000,
    "weight": 30,
    "duration": 73126,
+   "waiting_time": 0,
    "distance": 1543.493,
    "product_type": "ไม้",
    "permission": "public",
@@ -677,16 +742,19 @@
     "district": "อำเภอสะเดา",
     "zipcode": "90120"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 8000,
    "weight": 15,
    "duration": 20171,
+   "waiting_time": 0,
    "distance": 389.285,
    "product_type": "ไม้เข็ม",
    "permission": "public",
@@ -708,16 +776,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 12400,
    "weight": 35,
    "duration": 17303,
+   "waiting_time": 0,
    "distance": 385.645,
    "product_type": "ปุ๋ยเกษตร",
    "permission": "public",
@@ -739,16 +810,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 8300,
    "weight": 35,
    "duration": 11344,
+   "waiting_time": 0,
    "distance": 243.523,
    "product_type": "ปุ๋ยเกษตร",
    "permission": "public",
@@ -770,16 +844,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 14000,
    "weight": 35,
    "duration": 24010,
+   "waiting_time": 0,
    "distance": 453.988,
    "product_type": "ไม้ยางพารา",
    "permission": "public",
@@ -801,16 +878,19 @@
     "district": "อำเภอแกลง",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 15000,
    "weight": 30,
    "duration": 27790,
+   "waiting_time": 0,
    "distance": 556.233,
    "product_type": "มันเส้น",
    "permission": "public",
@@ -832,16 +912,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 6600,
    "weight": 30,
    "duration": 9813,
+   "waiting_time": 0,
    "distance": 208.079,
    "product_type": "ไม้สับ",
    "permission": "public",
@@ -863,16 +946,19 @@
     "district": "อำเภอเมืองปทุมธานี",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 13500,
    "weight": 30,
    "duration": 24131,
+   "waiting_time": 0,
    "distance": 471.117,
    "product_type": "ไม้ท่อน",
    "permission": "public",
@@ -894,16 +980,19 @@
     "district": "อำเภอ พระนครศรีอยุธยา",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 12600,
    "weight": 30,
    "duration": 48953,
+   "waiting_time": 0,
    "distance": 1024.013,
    "product_type": "ไม้ยางพารา",
    "permission": "public",
@@ -925,16 +1014,19 @@
     "district": "อำเภอเมืองระยอง",
     "zipcode": "21000"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 11700,
    "weight": 30,
    "duration": 13790,
+   "waiting_time": 0,
    "distance": 253.387,
    "product_type": "ไม้แปรรูป",
    "permission": "public",
@@ -956,16 +1048,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 12000,
    "weight": 30,
    "duration": 21727,
+   "waiting_time": 0,
    "distance": 407.906,
    "product_type": "ไม้ยูคา",
    "permission": "public",
@@ -987,16 +1082,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 2860,
    "weight": 22,
    "duration": 4723,
+   "waiting_time": 0,
    "distance": 83.811,
    "product_type": "ขยะแห้ง",
    "permission": "public",
@@ -1018,16 +1116,19 @@
     "district": "อำเภอมวกเหล็ก",
     "zipcode": "18180"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 3000,
    "weight": 12,
    "duration": 4116,
+   "waiting_time": 0,
    "distance": 68.89,
    "product_type": "ข้าวสาร",
    "permission": "public",
@@ -1049,16 +1150,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 20000,
    "weight": 30,
    "duration": 26681,
+   "waiting_time": 0,
    "distance": 596.432,
    "product_type": "ตู้หมาก",
    "permission": "public",
@@ -1080,16 +1184,19 @@
     "district": "อำเภอแม่สอด",
     "zipcode": "63110"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 11700,
    "weight": 30,
    "duration": 26972,
+   "waiting_time": 0,
    "distance": 540.971,
    "product_type": "ปุ๋ยนกปากห่าง",
    "permission": "public",
@@ -1111,16 +1218,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 15000,
    "weight": 30,
    "duration": 30765,
+   "waiting_time": 0,
    "distance": 632.848,
    "product_type": "กากมัน",
    "permission": "public",
@@ -1142,16 +1252,19 @@
     "district": "อำเภอกำแพงแสน",
     "zipcode": "73140"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 4000,
    "weight": 15,
    "duration": 3469,
+   "waiting_time": 0,
    "distance": 53.844,
    "product_type": "ข้าวสาร",
    "permission": "public",
@@ -1173,16 +1286,19 @@
     "district": "อำเภอลาดหลุมแก้ว",
     "zipcode": "12140"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 14000,
    "weight": 30,
    "duration": 23321,
+   "waiting_time": 0,
    "distance": 446.408,
    "product_type": "มันเส้น",
    "permission": "public",
@@ -1204,16 +1320,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 10000,
    "weight": 15,
    "duration": 31213,
+   "waiting_time": 0,
    "distance": 682.575,
    "product_type": "เหล็ก",
    "permission": "public",
@@ -1235,16 +1354,19 @@
     "district": "อำเภอ ถ้ำพรรณรา",
     "zipcode": "80260"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 8000,
    "weight": 30,
    "duration": 9024,
+   "waiting_time": 0,
    "distance": 202.298,
    "product_type": "เปลือกไม้",
    "permission": "public",
@@ -1266,16 +1388,19 @@
     "district": "อำเภอแก่งคอย",
     "zipcode": "18110"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 17000,
    "weight": 30,
    "duration": 26940,
+   "waiting_time": 0,
    "distance": 601.035,
    "product_type": "ยางน้ำ",
    "permission": "public",
@@ -1297,16 +1422,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 8000,
    "weight": 32,
    "duration": 15162,
+   "waiting_time": 0,
    "distance": 268.278,
    "product_type": "อ้อย",
    "permission": "public",
@@ -1328,16 +1456,19 @@
     "district": "อำเภอ คูเมือง",
     "zipcode": "31190"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 3500,
    "weight": 7,
    "duration": 12264,
+   "waiting_time": 0,
    "distance": 185.363,
    "product_type": "กระดาษลัง",
    "permission": "public",
@@ -1359,16 +1490,19 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 15000,
    "weight": 32,
    "duration": 29394,
+   "waiting_time": 0,
    "distance": 604.851,
    "product_type": "มันเส้น",
    "permission": "public",
@@ -1390,16 +1524,19 @@
     "district": "อำเภอบางเลน",
     "zipcode": "73130"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 22500,
    "weight": 32,
    "duration": 48202,
+   "waiting_time": 0,
    "distance": 1049.112,
    "product_type": "ขดลวด",
    "permission": "public",
@@ -1421,16 +1558,19 @@
     "district": "อำเภอบางกล่ำ",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 18500,
    "weight": 32,
    "duration": 30794,
+   "waiting_time": 0,
    "distance": 616.371,
    "product_type": "น้ำตาลทรายดิบ",
    "permission": "public",
@@ -1452,16 +1592,19 @@
     "district": "อำเภอบางไทร",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 7820,
    "weight": 34,
    "duration": 12338,
+   "waiting_time": 0,
    "distance": 254.079,
    "product_type": "ปูน Big bag",
    "permission": "public",
@@ -1483,16 +1626,19 @@
     "district": "อำเภอพล",
     "zipcode": "40120"
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
  },
  {
   "job": {
+   "job_id": "000000000000000000000000",
    "carrier_id": "000000000000000000000000",
    "offer_price": 4480,
    "weight": 32,
    "duration": 3502,
+   "waiting_time": 0,
    "distance": 67.655,
    "product_type": "ไม้ฟืน",
    "permission": "public",
@@ -1514,6 +1660,7 @@
     "district": "",
     "zipcode": ""
    },
+   "status": 0,
    "visited": false,
    "cost": 0
   }
